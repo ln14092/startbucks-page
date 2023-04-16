@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StarBucks</title>
-    <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
@@ -14,10 +13,40 @@
   </head>
 
   <body>
-    <!-- <section>
+    <header>
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="" />
+      </a>
+      <div id="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <ul class="navbar">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#shop">Shop</a>
+        </li>
+        <li>
+          <a href="#delivery">Delivery</a>
+        </li>
+        <li>
+          <a href="#app">App</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <section>
       <div class="circle"></div>
 
-      <header id="header">
+      <!-- <header id="header">
         <a href="#"><img src="images/logo.png" class="logo" /></a>
 
         <div class="toggle" onclick="toggleMenu();"></div>
@@ -28,7 +57,7 @@
           <li><a class="header-btn" href="#">What's New</a></li>
           <li><a class="header-btn" href="#">Contact</a></li>
         </ul>
-      </header>
+      </header> -->
 
       <div class="content">
         <div class="textbox">
@@ -94,35 +123,7 @@
           <a href="#"><img src="images/instagram.png" /></a>
         </li>
       </ul>
-    </section> -->
-
-    <header>
-      <a href="#" class="logo">
-        <img src="images/logo.png" alt="" />
-      </a>
-      <div class="bx bx-menu" id="menu-icon"></div>
-
-      <ul class="navbar">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#">Shop</a>
-        </li>
-        <li>
-          <a href="#">Delivery</a>
-        </li>
-        <li>
-          <a href="#">App</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </header>
+    </section>
 
     <section class="home" id="home">
       <div class="home-text">
@@ -193,7 +194,7 @@
       </div>
     </section>
 
-    <section class="delivery">
+    <section class="delivery" id="delivery">
       <div class="heading">
         <span>Get Now</span>
         <h1>Order With Uber Eats</h1>
@@ -219,7 +220,7 @@
       </div>
     </section>
 
-    <section class="app">
+    <section class="app" id="app">
       <div class="heading">
         <span>Our App</span>
         <h1>Download App</h1>
@@ -245,7 +246,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-img">
         <img src="images/about.png" alt="" />
       </div>
@@ -265,7 +266,7 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="social">
         <a href=""><i class="fa-brands fa-facebook-f"></i></a>
         <a href="">
@@ -285,6 +286,6 @@
       </div>
       <p>&#169; 2023 Starbucks Coffee Company</p>
     </section>
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
   </body>
 </html>
