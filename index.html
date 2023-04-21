@@ -43,249 +43,243 @@
       </ul>
     </header>
 
-    <section>
-      <div class="circle"></div>
+    <div class="wrapper">
+      <section>
+        <div class="circle"></div>
 
-      <!-- <header id="header">
-        <a href="#"><img src="images/logo.png" class="logo" /></a>
+        <div class="content">
+          <div class="textbox">
+            <h2>It's not just Coffee<br />It's<span>Starbucks</span></h2>
+            <p>
+              Our coffee masters have combined their years of coffee tasting
+              experience in three simple questions to help you find the coffee
+              you're sure to love.
+            </p>
+            <a class="active-color" href="#">Learn More</a>
+          </div>
+          <div class="imgBox">
+            <img src="images/img1.png" class="starbucks" />
+          </div>
+        </div>
 
-        <div class="toggle" onclick="toggleMenu();"></div>
-
-        <ul class="navigation">
-          <li><a class="header-btn" href="#">Home</a></li>
-          <li><a class="header-btn" href="#">Menu</a></li>
-          <li><a class="header-btn" href="#">What's New</a></li>
-          <li><a class="header-btn" href="#">Contact</a></li>
+        <ul class="thumb">
+          <li>
+            <img
+              src="images/thumb1.png"
+              onclick="imgSlider('images/img1.png');
+                changeCircleColor('#017143');
+                textColor('#017143');
+                buttonColor('#017143');
+                listColor('#017143')
+              "
+            />
+          </li>
+          <li>
+            <img
+              src="images/thumb2.png"
+              onclick="imgSlider('images/img2.png');
+                changeCircleColor('#eb7495');
+                textColor('#ed7495');
+                buttonColor('#ed7495');
+                listColor('#ed7495')
+              "
+            />
+          </li>
+          <li>
+            <img
+              src="images/thumb3.png"
+              onclick="
+                imgSlider('images/img3.png');
+                changeCircleColor('#d752b1');
+                textColor('#d752b1');
+                buttonColor('#d752b1');
+                listColor('#d752b1')
+              "
+            />
+          </li>
         </ul>
-      </header> -->
 
-      <div class="content">
-        <div class="textbox">
-          <h2>It's not just Coffee<br />It's<span>Starbucks</span></h2>
+        <ul class="sci">
+          <li>
+            <a href="#"><img src="images/facebook.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/twitter.png" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/instagram.png" /></a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="home" id="home">
+        <div class="home-text">
+          <span>Welcome To</span>
+          <h1>Startbucks Coffee</h1>
+          <h2>Free Cofee is a <br />tap away</h2>
+          <a href="" class="btn">Join Now</a>
+        </div>
+        <div class="home-img">
+          <img src="images/home.png" alt="" />
+        </div>
+      </section>
+
+      <section class="shop" id="shop">
+        <div class="heading">
+          <span>Shop Now</span>
+          <h1>Shop Coffee</h1>
+        </div>
+        <div class="shop-container">
+          <div class="box">
+            <div class="box-img">
+              <img src="images/shop1.png" alt="" />
+            </div>
+            <div class="start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h2>Startbucks Coffee</h2>
+            <span>$ 20</span>
+            <a href="" class="btn">Order Now</a>
+          </div>
+
+          <div class="box">
+            <div class="box-img">
+              <img src="images/shop2.png" alt="" />
+            </div>
+            <div class="starts">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h2>Startbucks Coffee</h2>
+            <span>$ 20</span>
+            <a href="" class="btn">Order Now</a>
+          </div>
+
+          <div class="box">
+            <div class="box-img">
+              <img src="images/shop3.png" alt="" />
+            </div>
+
+            <div class="start">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h2>Startbucks Coffee</h2>
+            <span>$ 20</span>
+            <a href="" class="btn">Order Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="delivery" id="delivery">
+        <div class="heading">
+          <span>Get Now</span>
+          <h1>Order With Uber Eats</h1>
+        </div>
+        <div class="container">
+          <div class="delivery-img">
+            <img src="images/delivery.png" alt="" />
+          </div>
+          <div class="delivery-text">
+            <h2>
+              Can I get the full menu of items available at my local Starbucks®
+              store delivered?
+            </h2>
+            <p>
+              Place an order through the DoorDash app here or check the Uber
+              Eats app here for availability.
+            </p>
+            <p>
+              To maintain the high standards of quality and consistency we know
+              you expect from us, we’ve optimized our menu for Starbucks®
+              delivery. Consequently, select items are currently unavailable for
+              Starbucks® delivery.
+            </p>
+
+            <a href="" class="btn">Order Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="app" id="app">
+        <div class="heading">
+          <span>Our App</span>
+          <h1>Download App</h1>
+        </div>
+        <div class="container">
+          <div class="app-text">
+            <h2>About this app</h2>
+            <p>
+              The Starbucks® app is a convenient way to order ahead for pickup,
+              scan and pay in-store and customize your favorites.
+            </p>
+            <p>
+              Rewards are built right in, so you'll earn Stars towards free
+              drinks and food on your purchases. Customize and place your order,
+              then pick up from a nearby participating store without waiting in
+              line.
+            </p>
+            <a href="" class="btn">Get App</a>
+          </div>
+          <div class="app-img">
+            <img src="images/app.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="images/about.png" alt="" />
+        </div>
+        <div class="about-text">
+          <h2>50 years of serving communities</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iure
-            delectus illo deserunt. Minima aspernatur incidunt eaque sunt
-            necessitatibus veritatis amet pariatur ab quas, fugit nostrum aut
-            natus! Eos, asperiores!
-          </p>
-          <a class="active-color" href="#">Learn More</a>
-        </div>
-        <div class="imgBox">
-          <img src="images/img1.png" class="starbucks" />
-        </div>
-      </div>
-
-      <ul class="thumb">
-        <li>
-          <img
-            src="images/thumb1.png"
-            onclick="imgSlider('images/img1.png');
-              changeCircleColor('#017143');
-              textColor('#017143');
-              buttonColor('#017143');
-              listColor('#017143')
-            "
-          />
-        </li>
-        <li>
-          <img
-            src="images/thumb2.png"
-            onclick="imgSlider('images/img2.png');
-              changeCircleColor('#eb7495');
-              textColor('#ed7495');
-              buttonColor('#ed7495');
-              listColor('#ed7495')
-            "
-          />
-        </li>
-        <li>
-          <img
-            src="images/thumb3.png"
-            onclick="
-              imgSlider('images/img3.png');
-              changeCircleColor('#d752b1');
-              textColor('#d752b1');
-              buttonColor('#d752b1');
-              listColor('#d752b1')
-            "
-          />
-        </li>
-      </ul>
-
-      <ul class="sci">
-        <li>
-          <a href="#"><img src="images/facebook.png" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/twitter.png" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/instagram.png" /></a>
-        </li>
-      </ul>
-    </section>
-
-    <section class="home" id="home">
-      <div class="home-text">
-        <span>Welcome To</span>
-        <h1>Startbucks Coffee</h1>
-        <h2>Free Cofee is a <br />tap away</h2>
-        <a href="" class="btn">Join Now</a>
-      </div>
-      <div class="home-img">
-        <img src="images/home.png" alt="" />
-      </div>
-    </section>
-
-    <section class="shop" id="shop">
-      <div class="heading">
-        <span>Shop Now</span>
-        <h1>Shop Coffee</h1>
-      </div>
-      <div class="shop-container">
-        <div class="box">
-          <div class="box-img">
-            <img src="images/shop1.png" alt="" />
-          </div>
-          <div class="start">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <h2>Startbucks Coffee</h2>
-          <span>$ 20</span>
-          <a href="" class="btn">Order Now</a>
-        </div>
-
-        <div class="box">
-          <div class="box-img">
-            <img src="images/shop2.png" alt="" />
-          </div>
-          <div class="starts">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <h2>Startbucks Coffee</h2>
-          <span>$ 20</span>
-          <a href="" class="btn">Order Now</a>
-        </div>
-
-        <div class="box">
-          <div class="box-img">
-            <img src="images/shop3.png" alt="" />
-          </div>
-
-          <div class="start">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <h2>Startbucks Coffee</h2>
-          <span>$ 20</span>
-          <a href="" class="btn">Order Now</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="delivery" id="delivery">
-      <div class="heading">
-        <span>Get Now</span>
-        <h1>Order With Uber Eats</h1>
-      </div>
-      <div class="container">
-        <div class="delivery-img">
-          <img src="images/delivery.png" alt="" />
-        </div>
-        <div class="delivery-text">
-          <h2>Today deserve delivery</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem
-            atque omnis dolorem, quos ipsum temporibus eos odit neque, amet eum.
-            Tenetur est deserunt illum inventore, placeat hic debitis eligendi.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem
-            atque omnis dolorem, quos ipsum temporibus eos odit neque, amet eum.
-            Tenetur est deserunt illum inventore, placeat hic debitis eligendi.
-          </p>
-          <a href="" class="btn">Order Now</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="app" id="app">
-      <div class="heading">
-        <span>Our App</span>
-        <h1>Download App</h1>
-      </div>
-      <div class="container">
-        <div class="app-text">
-          <h2>Fall into an easier routine</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem
-            atque omnis dolorem, quos ipsum temporibus eos odit neque, amet eum.
-            Tenetur est deserunt illum inventore, placeat hic debitis eligendi.
+            In celebration of Starbucks 50th anniversary, Starbucks is inviting
+            customers to bring in a clean, empty, reusable cup (up to 20 fl.
+            oz.) into participating cafe locations in the U.S. on National
+            Coffee Day, Sept. 29, to receive a free cup of Pike Place® Roast
+            brewed coffee*.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem
-            atque omnis dolorem, quos ipsum temporibus eos odit neque, amet eum.
-            Tenetur est deserunt illum inventore, placeat hic debitis eligendi.
+            Starbucks is marking the milestone anniversary with customers to
+            share how grateful the company is to be part of their communities
+            and daily lives.
           </p>
-          <a href="" class="btn">Get App</a>
+          <a href="" class="btn">Learn More</a>
         </div>
-        <div class="app-img">
-          <img src="images/app.png" alt="" />
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="social">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
         </div>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="images/about.png" alt="" />
-      </div>
-      <div class="about-text">
-        <h2>50 years of serving communities</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem
-          atque omnis dolorem, quos ipsum temporibus eos odit neque, amet eum.
-          Tenetur est deserunt illum inventore, placeat hic debitis eligendi.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem
-          atque omnis dolorem, quos ipsum temporibus eos odit neque, amet eum.
-          Tenetur est deserunt illum inventore, placeat hic debitis eligendi.
-        </p>
-        <a href="" class="btn">Learn More</a>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="social">
-        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="">
-          <i class="fa-brands fa-youtube"></i>
-        </a>
-      </div>
-      <div class="links">
-        <a href="">Privacy Policy</a>
-        <a href="">Term Of Use</a>
-        <a href="">Our Company</a>
-      </div>
-      <p>&#169; 2023 Starbucks Coffee Company</p>
-    </section>
+        <div class="links">
+          <a href="">Privacy Policy</a>
+          <a href="">Term Of Use</a>
+          <a href="">Our Company</a>
+        </div>
+        <p>&#169; 2023 Starbucks Coffee Company</p>
+      </section>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

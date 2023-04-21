@@ -10,15 +10,13 @@
   --second-color: #1e3932;
 }
 
-section {
-  /* padding: 50px 10%; */
+.wrapper {
+  width: 100%;
 }
 
 section {
   position: relative;
   width: 100%;
-  /* min-height: 100vh; */
-  /* padding: 100px; */
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -72,6 +70,7 @@ header ul li a:hover {
 .content .textbox {
   position: relative;
   max-width: 600px;
+  width: 100%;
 }
 .content .textbox h2 {
   color: #333;
@@ -132,8 +131,8 @@ header ul li a:hover {
   max-width: 60px;
 }
 .sci {
-  position: relative;
-  top: 50px;
+  position: absolute;
+  top: 51%;
   right: 30px;
   transform: translateY(-50%);
   display: flex;
@@ -654,6 +653,14 @@ header {
 
   .about {
     flex-direction: column-reverse;
+  }
+
+  .content .textbox h2 {
+    font-size: 3em;
+  }
+
+  .content .textbox span {
+    font-size: 1em;
   }
 }
 
