@@ -343,6 +343,300 @@ header {
   animation: animate 3s linear infinite;
 }
 
+/*
+Tiến
+*/
+.container-about{
+  background: #cccccc54;
+}
+
+.sub-container-about{
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+}
+
+.sub-about{
+  margin: 40px 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.about-learnmor{
+  display: inline-block;
+    padding: 12px;
+    background: #008148;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.about-learnmor a{
+  text-decoration: none;
+    color: #fff;
+}
+
+.sub-about-1{
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+  flex:2;
+  margin: 20px;
+}
+
+.sub-about-text h3{
+  font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.sub-about-text{
+  background: #00968873;
+  border-radius: 4px;
+}
+
+.sub-about-text p{
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-left: 15px;
+}
+
+.sub-about-2{
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+  flex: 5;
+  display: flex;
+ 
+}
+
+.text-icon{
+  color: var(--color-primary);
+  font-size: 32px;
+  margin-bottom: 30px;
+  background: rgb(120 102 65 / 16%);
+  border-radius: 50px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  color: #008148;
+}
+
+.sub-about2-text{
+  margin: 20px 10px; 
+  background-color: #00968814;
+  border-radius: 10px;
+}
+
+.sub-about2-text h4{
+  margin: 18px;
+  text-align: center;
+  font-size: 20px;
+    font-weight: 400;
+}
+
+.sub-about2-text p{
+  text-align: center;
+    margin: 31px 24px;
+    line-height: 1.9;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.sub-about2-text:hover{
+  /* phóng to */
+  transform: scale(1.1);
+  text-align: center;
+    transition: 0.3s;
+}
+
+.icon-center{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*--------------------------------------------*/
+.about-sales{
+  /*linear-gradient là chuyển dải màu*/
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/coffe2.webp) center center;
+  /* ảnh phù toàn bộ*/
+  background-size: cover;
+  padding: 70px 0;
+  height: 100%;
+  overflow: hidden;
+}
+.sales-container{
+  opacity: 1;
+  /* giúp tăng tốc độ hiệu ứng chuyển động.theo trục Z  
+  scale(1) chuyển động giữ nguyên kích thước ban đầu*/
+  transform: translateZ(0) scale(1);
+  /*--hiệu ứng sẽ bắt đầu chậm,
+   tăng tốc và sau đó chậm lại trước khi kết thúc----*/
+  transition-timing-function: ease-in-out;  
+  /*--thời gian mà hiệu ứng chuyển động sẽ diễn ra----*/
+  transition-duration: 1s;
+  /* xác định thuộc tính chuyển động*/
+  transition-property: opacity,transform;
+}
+
+.sales-sub-container{
+  display: flex;
+  opacity: 1;
+}
+.sales-sub-container span{
+  color: #fff;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+.sales-sub-container p{
+  color: #fff;
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  opacity: 0.5;
+}
+.sales{
+  padding: 20px;
+}
+.sub-sales{
+  padding: 50px;
+}
+
+
+
+
+
+
+/*--------------------------------------------*/
+.about-person{
+  background-color: #eee;
+}
+
+.about-person-title h2 {
+  font-size: 13px;
+  color: #7f7f90;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.about-person-title p{
+  font-size: 45px;
+    font-weight: 700;
+  text-align: center;
+}
+
+.about-person-title span{
+ color:  var(--main-color);
+}
+
+.about-person-title{
+  margin: 30px 0px;
+}
+
+.person-description{
+  margin-top: 100px;
+  margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-property: opacity,transform;
+}
+
+.sub-person-descripton{
+ 
+  height: 100%;
+  position: relative;
+  display: flex;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+.description{
+  display: flex;
+  margin: 0px 15%;
+}
+.person-description-left{
+  margin-right: 20px;
+}
+
+.person-description-left p{
+  font-size: 20px;
+  font-style: oblique;
+}
+.person-description-left p > i{
+  color: var(--main-color);
+}
+
+.person-description-left h3{
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.person-description-left h4{
+  opacity: 0.7;
+}
+
+.person-star{
+  margin-top: 17px;
+  color: #e4ba3c;;
+}
+
+.person-description-right img{
+  border-radius: 50%;
+  width: auto;
+  max-width: 250px;
+}
+
+.person-slider{
+  overflow: hidden;
+/*
+  flex-grow: 1 để các phần tử con có kích thước bằng nhau
+  flex-shink: 0 khi không đủ diện tích thì các phần tử sẽ không co lại
+  flex-bassic: 100% để item chiếm 100% thẻ cha
+*/
+  flex: 1 0 100%;
+  height: 100%;
+}
+
+.person-slider.myactive{
+
+}
+
+.about-icon{
+  text-align: center;
+}
+
+.cicle-icon.myactive{
+  border-radius: 50%;
+  background: #009688;
+}
+
+.person-description-right{
+}
+
+
+
+
+
+
+
+
 @keyframes animate {
   0% {
     transform: translate(-11px, 0);
