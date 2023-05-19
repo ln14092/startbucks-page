@@ -56,27 +56,3 @@ function toggleMenu() {
   menuToggle.classList.toggle("active");
   navigation.classList.toggle("active");
 }
-
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
-
-slideIcon = $('.cicle-icon')
-const slide = $$('.person-slider');
-const aboutIcon = $$('.cicle-icon')
-const nextDescription = $('.sub-person-descripton');
-const countSlider =$$('.person-slider');
-const superNextDescription = $('.super-person');
-
-//lấy ra độ rộng của thẻ super-person'
-
-
-aboutIcon.forEach((item,index)=>{
-  const pan = slide[index];
-  item.onclick = ()=>{
-    $('.person-slider.myactive').classList.remove('myactive');
-    $('.cicle-icon.myactive').classList.remove('myactive');
-    item.classList.add('myactive');
-    pan.classList.add('myactive');
-    nextDescription.style = `transform: translateX(${index*-100}%)`;
-  }
-})
