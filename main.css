@@ -377,7 +377,6 @@ header {
   animation: animate 3s linear infinite;
 }
 
-
 @keyframes animate {
   0% {
     transform: translate(-11px, 0);

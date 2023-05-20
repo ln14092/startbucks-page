@@ -78,3 +78,4 @@ aboutIcon.forEach((item,index)=>{
     nextDescription.style = `transform: translateX(${index*-100}%)`;
   }
 })
+
