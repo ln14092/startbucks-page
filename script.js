@@ -64,8 +64,6 @@ slideIcon = $('.cicle-icon')
 const slide = $$('.person-slider');
 const aboutIcon = $$('.cicle-icon')
 const nextDescription = $('.sub-person-descripton');
-const countSlider =$$('.person-slider');
-const superNextDescription = $('.super-person');
 
 //lấy ra độ rộng của thẻ super-person'
 
