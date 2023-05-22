@@ -1264,9 +1264,7 @@ header ul li a:hover {
 
 /*Màn hình desktop*/
 @media (min-width: 1441px) {
-  .contain-input{
-    flex: 1;
-  }
+
   .sub-about2-text:hover{
     transform: scale(1.07);
   }
